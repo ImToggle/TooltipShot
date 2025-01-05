@@ -1,0 +1,14 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.7",
+  "package": "me.imtoggle.tooltipshot.mixin",
+  "refmap": "mixins.tooltipshot.refmap.json",
+  "injectors": {
+    "maxShiftBy": 5
+  },
+  "verbose": true,
+  "client": [
+    "GuiContainerAccessor",
+    "GuiScreenMixin"
+  ]
+}

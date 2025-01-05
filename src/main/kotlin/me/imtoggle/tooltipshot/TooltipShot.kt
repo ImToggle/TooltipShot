@@ -1,10 +1,10 @@
-package me.imtoggle.testmod
+package me.imtoggle.tooltipshot
 
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
 
-@Mod(modid = TestMod.MODID, name = TestMod.NAME, version = TestMod.VERSION, modLanguageAdapter = "cc.polyfrost.oneconfig.utils.KotlinLanguageAdapter")
-object TestMod {
+@Mod(modid = TooltipShot.MODID, name = TooltipShot.NAME, version = TooltipShot.VERSION, modLanguageAdapter = "cc.polyfrost.oneconfig.utils.KotlinLanguageAdapter")
+object TooltipShot {
     const val MODID = "@ID@"
     const val NAME = "@NAME@"
     const val VERSION = "@VER@"

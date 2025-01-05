@@ -34,7 +34,7 @@ blossom {
 version = mod_version
 // Sets the group, make sure to change this to your own. It can be a website you own backwards or your GitHub username.
 // e.g. com.github.<your username> or com.<your domain>
-group = "org.polyfrost"
+group = "me.imtoggle"
 
 // Sets the name of the output jar (the one you put in your mods folder and send to other people)
 // It outputs all versions of the mod into the `build` directory.
@@ -77,10 +77,10 @@ val modShade: Configuration by configurations.creating {
 
 // Configures the output directory for when building from the `src/resources` directory.
 sourceSets {
-    val dummy by creating
+//    val dummy by creating
     main {
-        dummy.compileClasspath += compileClasspath
-        compileClasspath += dummy.output
+//        dummy.compileClasspath += compileClasspath
+//        compileClasspath += dummy.output
         output.setResourcesDir(java.classesDirectory)
     }
 }
